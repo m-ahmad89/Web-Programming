@@ -1,0 +1,3 @@
+# Lab Reflection
+
+During this lab, I learned how to use Git for version control and how to connect my local project to GitHub. I practiced creating new files, adding them to staging, committing changes, and pushing updates to a remote repository. I also learned how to create and switch between branches. This lab helped me understand how Git tracks changes and manages different versions of a project efficiently.

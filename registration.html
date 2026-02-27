@@ -1,45 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="description" content="Lab 02 Portfolio Website">
+<meta name="keywords" content="HTML, GitHub Pages, UET, Web Technologies">
+<meta name="author" content="Muhammad Ahmad">
     <title>Student Registration</title>
 </head>
 <body>
 
 <h1>Student Registration Form</h1>
 
-<form>
+<form action="#" method="POST">
 
-    <label>Full Name:</label>
-    <input type="text" required><br><br>
+<label>Name:</label>
+<input type="text" required minlength="3"><br><br>
 
-    <label>Registration Number:</label>
-    <input type="text" required><br><br>
+<label>Email:</label>
+<input type="email" required><br><br>
 
-    <label>Email:</label>
-    <input type="email" required><br><br>
+<label>Password:</label>
+<input type="password" required minlength="6"><br><br>
 
-    <label>Password:</label>
-    <input type="password" required><br><br>
-
-    <label>Select Course:</label>
-    <select>
-        <option>Web Technologies</option>
-        <option>Operating System</option>
-        <option>Artificial Intelligence</option>
-    </select>
-    <br><br>
-
-    <label>Semester:</label>
-    <input type="radio" name="semester"> 4th
-    <input type="radio" name="semester"> 5th
-    <br><br>
-
-    <input type="checkbox" required> I agree to terms and conditions
-    <br><br>
-
-    <input type="submit" value="Register">
+<input type="submit" value="Register">
 
 </form>
-
 </body>
 </html>
